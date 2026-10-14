@@ -14,9 +14,9 @@ tags:
 
 # ReTerm-9B
 
-This repository contains **ReTerm-9B**, a self-improving terminal agent built on Qwen3.5-9B through SFT and ReTerm-GRPO. The model uses the Qwen3.5 architecture and chat template.
+This repository contains **ReTerm-9B**, presented in [ReTerm: Recovery Training for Self-Improving Terminal Agents](https://arxiv.org/abs/2610.18484). ReTerm-9B is a self-improving terminal agent built on Qwen3.5-9B through SFT and ReTerm-GRPO. The model uses the Qwen3.5 architecture and chat template.
 
-[**Training code**](https://github.com/twothsnd/ReTerm) · [**ReTerm-10K dataset**](https://huggingface.co/datasets/twothsnd/ReTerm-10K) · [**Base model**](https://huggingface.co/Qwen/Qwen3.5-9B)
+[**Paper**](https://arxiv.org/abs/2610.18484) · [**Training code**](https://github.com/twothsnd/ReTerm) · [**ReTerm-10K dataset**](https://huggingface.co/datasets/twothsnd/ReTerm-10K) · [**Base model**](https://huggingface.co/Qwen/Qwen3.5-9B)
 
 ## 👀 About ReTerm
 

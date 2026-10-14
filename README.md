@@ -1,6 +1,7 @@
 <h1 align="center">ReTerm: Recovery Training for Self-Improving Terminal Agents</h1>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2610.18484">📖 Paper</a> &nbsp;·&nbsp;
   <a href="https://huggingface.co/twothsnd/ReTerm-9B">🤗 ReTerm-9B model</a> &nbsp;·&nbsp;
   <a href="https://huggingface.co/datasets/twothsnd/ReTerm-10K">🤗 ReTerm-10K dataset</a>
 </p>
@@ -100,10 +101,11 @@ We thank the teams behind [Qwen](https://github.com/QwenLM), [veRL](https://gith
 If you find our work helpful for your research, please consider citing our work:
 
 ```bibtex
-@misc{xie2026reterm,
+@article{xie2026reterm,
   title={ReTerm: Recovery Training for Self-Improving Terminal Agents},
   author={Xie, Wei and Feng, Kaituo and Fu, Shiming and Liu, Yong and Yue, Xiangyu and Zheng, Shuangjia},
+  journal={arXiv preprint arXiv:2610.18484},
   year={2026},
-  url={https://github.com/twothsnd/ReTerm}
+  url={https://arxiv.org/abs/2610.18484}
 }
 ```

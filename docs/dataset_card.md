@@ -14,9 +14,9 @@ tags:
 
 # ReTerm-10K
 
-This dataset provides SFT training data for **ReTerm**, a self-improving terminal agent that learns to recover from errors to improve task completion.
+This dataset provides SFT training data for **ReTerm**, a self-improving terminal agent that learns to recover from errors to improve task completion, as presented in [ReTerm: Recovery Training for Self-Improving Terminal Agents](https://arxiv.org/abs/2610.18484).
 
-[**Code**](https://github.com/twothsnd/ReTerm) · [**ReTerm-9B model**](https://huggingface.co/twothsnd/ReTerm-9B)
+[**Paper**](https://arxiv.org/abs/2610.18484) · [**Code**](https://github.com/twothsnd/ReTerm) · [**ReTerm-9B model**](https://huggingface.co/twothsnd/ReTerm-9B)
 
 ## About ReTerm-10K
 
