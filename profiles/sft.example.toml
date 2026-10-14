@@ -1,0 +1,16 @@
+# Single-node, 8-GPU SFT example. Replace the paths for your setup.
+[run]
+python = "/path/to/sft-environment/bin/python"
+
+[paths]
+model = "/path/to/Qwen3.5-9B"
+train_data = "/path/to/ReTerm-10K/train.jsonl"
+output = "/path/to/output/sft"
+# deepspeed = "/path/to/deepspeed_zero3_optimizer_offload.json"
+
+[training]
+gpus = 8
+epochs = 2
+max_length = 65536
+learning_rate = 5e-6
+gradient_accumulation_steps = 4

@@ -1,0 +1,19 @@
+# Single-node, 8-GPU ReTerm-GRPO example. Replace the paths and task adapter.
+[run]
+python = "/path/to/rl-environment/bin/python"
+config_name = "reterm_grpo"
+
+[groups]
+initial = 8
+recovery = 2
+size = 16
+
+[hydra]
+"actor_rollout_ref.model.path" = "/path/to/sft-checkpoint"
+"critic.model.path" = "/path/to/sft-checkpoint"
+"recovery_env.dataset.factory" = "your_package.tasks:create_dataset"
+"recovery_env.dataset.state_root" = "/path/to/state"
+"recovery_env.recovery_buffer_root" = "/path/to/work/recovery-queue"
+"trainer.default_local_dir" = "/path/to/work/checkpoints"
+"trainer.nnodes" = 1
+"trainer.n_gpus_per_node" = 8

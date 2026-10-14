@@ -1,0 +1,10 @@
+accelerate>=1.7
+deepspeed>=0.17
+causal-conv1d==1.6.2.post1
+flash-linear-attention==0.5.1
+liger-kernel==0.8.0
+pytest>=8.0
+tensorboard>=2.21
+torch==2.10.0
+transformers==5.9.0
+tomli>=2.0; python_version < "3.11"
